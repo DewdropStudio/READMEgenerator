@@ -35,12 +35,14 @@ const questions = [
 
 // // function to write README file
 function writeToFile(fileName, data) {
-    
-}
+    fs.writeFile(fileName, generateMarkdown(data), err => err ? console.log(err) : console.log(`Successfully created ${fn}`));
+};
 
 // // function to initialize program
 function init() {
-inquirer.prompt(questions).then(data);
+inquirer.prompt(questions).then(function(response) {
+    writeToFile(response);
+});
 }
 
 // // function call to initialize program
