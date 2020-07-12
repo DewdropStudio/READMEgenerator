@@ -35,7 +35,7 @@ const questions = [
 
 // // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, generateMarkdown(data), err => err ? console.log(err) : console.log(`Successfully created ${fn}`));
+    fs.writeFile(fileName, generateMarkdown(data));
 };
 
 // // function to initialize program
