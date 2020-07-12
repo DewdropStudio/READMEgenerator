@@ -21,9 +21,9 @@ function generateMarkdown(data) {
     
         - [GitHub Profile](https://github.com/${data.username})
 
-    ## Contact
+    ## Contact:
        For additional questions please reach out to my email ${data.email}
-       
+
   `;
   }
   

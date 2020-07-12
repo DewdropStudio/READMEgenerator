@@ -1,7 +1,8 @@
-const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown");
 
-const inquirer = require("inquirer")
+const inquirer = require("inquirer");
 
+var fs = require("fs");
 // array of questions for user
 const questions = [
     {
@@ -29,7 +30,6 @@ const questions = [
         name: "installation",
         type: "input",
     },
-    
 
 ];
 
@@ -38,9 +38,9 @@ const questions = [
 // }
 
 // // function to initialize program
-// function init() {
-
-// }
+function init() {
+inquirer.prompt(questions).then(data);
+}
 
 // // function call to initialize program
-// init();
+init();
