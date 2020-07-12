@@ -1,4 +1,7 @@
-const generateMarkdown = require("utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown")
+
+const inquirer = require("inquirer")
+
 // array of questions for user
 const questions = [
     {
@@ -25,7 +28,7 @@ const questions = [
         message: "Installation instructions for this project.",
         name: "installation",
         type: "input",
-    }
+    },
     
 
 ];
