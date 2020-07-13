@@ -2,26 +2,26 @@
 function generateMarkdown(data) {
     return `
     
-    # ${data.title}
+     ## ${data.title}
 
-    # Table of Contents
+     ## Table of Contents
     - [Description](#description)
     - [Installation](#installation)
     - [Questions](#username)
     - [Contact](#email)
 
-    ## Description:
+     ## Description:
         ${data.description}
 
-    ## Installation:
+     ## Installation:
         ${data.installation}
 
-    ## Questions:
+     ## Questions:
         For questions, you can go to my GitHub page at the following Link:
     
         - [GitHub Profile](https://github.com/${data.username})
 
-    ## Contact:
+     ## Contact:
        For additional questions please reach out to my email ${data.email}
 
   `;
