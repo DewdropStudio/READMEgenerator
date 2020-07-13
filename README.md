@@ -8,6 +8,8 @@
 
  ## Description:
     Simple ReadMe generator layout.
+  
+ ![video](Terminal.gif)
 
  ## Installation:
     none
