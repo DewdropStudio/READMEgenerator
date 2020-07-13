@@ -1,6 +1,6 @@
 
     
-     ## rege
+     ## ReadMegenerator
 
      ## Table of Contents
     - [Description](#description)
@@ -9,17 +9,17 @@
     - [Contact](#email)
 
      ## Description:
-        rgerg
+        Simple ReadMe generator layout.
 
      ## Installation:
-        gee
+        none
 
      ## Questions:
         For questions, you can go to my GitHub page at the following Link:
     
-        - [GitHub Profile](https://github.com/gerg)
+        - [GitHub Profile](https://github.com/DewdropStudio)
 
      ## Contact:
-       For additional questions please reach out to my email rge
+       For additional questions please reach out to my email rocio.avila@northwestern.edu
 
   
